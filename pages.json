@@ -1,0 +1,104 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "学生请假管理",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/apply/apply",
+			"style": {
+				"navigationBarTitleText": "请假申请"
+			}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "请假记录",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "请假详情"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息通知"
+			}
+		},
+		{
+			"path": "pages/editProfile/editProfile",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/adminLogin/adminLogin",
+			"style": {
+				"navigationBarTitleText": "管理员登录"
+			}
+		},
+		{
+			"path": "pages/admin/index",
+			"style": {
+				"navigationBarTitleText": "请假审核",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/admin/detail",
+			"style": {
+				"navigationBarTitleText": "请假详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "学生请假管理",
+		"navigationBarBackgroundColor": "#4A90E2",
+		"backgroundColor": "#F5F5F5"
+	},
+	"tabBar": {
+		"custom": true,
+		"color": "#999999",
+		"selectedColor": "#4A90E2",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/record/record",
+				"text": "记录"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的"
+			}
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name": "student-leave-app",
+	"version": "1.0.0",
+	"description": "学生请假管理APP",
+	"main": "main.js",
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development UNI_PLATFORM=app-plus vue-cli-service uni-build",
+		"build": "cross-env NODE_ENV=production UNI_PLATFORM=app-plus vue-cli-service uni-build"
+	},
+	"dependencies": {
+		"@dcloudio/uni-ui": "^1.4.0"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.3"
+	}
+}
